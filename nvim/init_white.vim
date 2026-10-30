@@ -76,6 +76,15 @@ highlight SpecialKey   guifg=#005f87 guibg=#ffffff
 highlight NonText      guifg=#005f87 guibg=#ffffff
 highlight EndOfBuffer  guifg=#ffffff guibg=#ffffff
 
+highlight Pmenu      guifg=#000000 guibg=#ffffff gui=NONE ctermfg=0 ctermbg=15 cterm=NONE
+highlight PmenuSel   guifg=#000000 guibg=#cce5ff gui=NONE ctermfg=0 ctermbg=153 cterm=NONE
+highlight PmenuSbar  guibg=#eeeeee ctermbg=255
+highlight PmenuThumb guibg=#999999 ctermbg=245
+highlight! link PmenuKind     Pmenu
+highlight! link PmenuExtra    Pmenu
+highlight! link PmenuKindSel  PmenuSel
+highlight! link PmenuExtraSel PmenuSel
+
 " ============================================================
 " Shim for dev build without vim.version
 " ============================================================
